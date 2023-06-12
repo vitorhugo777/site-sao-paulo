@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sem serifa;
+}
+
+.cabeçalho {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.cabeçalho-imagem{
+    width: 20%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 18px;
+}
+
+.CAP-escudo{
+    width: 25%;
+    padding: 0 40px;
+}
+
+.CAP{
+    background-image: linear-gradient(#000000,#FF1717);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.CAP-Div{
+    width: 35%;
+}
+
+.CAP-titulo{
+    padding: 24px 0;
+}
+.terans{
+    width: 200px;
+}
+
+.vitor{
+    width: 200px;
+}
+
+.fernandinho{
+    width: 200px;
+}
+
+.instagram-logo{
+    width: 20px;
+}
+
+.terans-div{
+ text-align: center;   
+}
+
+.vitorroque-div{
+    text-align: center;
+}
+
+.fernandinho-div{
+    text-align: center;
+}
+
+.Jogadores{
+    background-color: #FF1717;
+    padding: 24px 0;
+}
+
+.Jogadores-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+
+.esquema{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+}
+
+.rodape{
+    background-color: #000000;
+    text-align: center;
+}
+
+.rodape-img{
+    height: 40px;
+}
